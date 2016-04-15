@@ -1,0 +1,49 @@
+
+Geography Quiz
+
+Brief: An extension project to use recently gained knowledge
+from Treehouse courses. Specifically:
+    -   OOP with JavaScript. (Creating objects and prototypes,
+        accessing and manipulating properties, using prototypal
+        inheritance)
+    -   AJAX Basics. (Updating a page with an AJAX request, using
+        JSON formatted data)
+    -   Responsive web design (using media queries to alter layout
+        and adopting a mobile-first approach )
+
+Plan: To extend the basic 5 question quiz to:
+    - allow a user to choose a topic
+    - show correct or incorrect when answered and wait for
+      button click before moving to next question
+    - show scores in real time
+    - include picture questions
+    - structure so that it will be easy to incorporate a more
+      complicated scoring system in the future, and or differentiated
+      quizzes for different target grades.
+    - use AJAX to retrieve data for each quiz in JSON format
+ 
+Structural plan:
+Objects:
+        - QuizUI (a user interface object with all necessary methods to
+                  play each quiz and switch topics, calculate score, etc)
+        - Quiz ( x 12 --- 1 for each topic)
+        - Question (abstract parent object)
+            - Qpic (picture questions)(inherit from Question)
+            - Qtext (text questions)(inherit from Question)
+            
+HTML:
+        - Header with title and current topic 
+        - A starter page div with instructions and topic buttons
+        - A Quiz page div with questions and answers
+        - A Footer with progress data and score
+            
+Functionality:
+        When the page loads, you should see the starter page div and
+        be able to select a topic. selecting a topic will hide the
+        starter div and display quiz page. On finishing a quiz you
+        should be able to retake the quiz or return to start to select
+        another topic.
+        
+        
+  
+        

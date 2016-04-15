@@ -1,0 +1,135 @@
+{
+    "qzUnit": 1,
+    "qzTopic": 3,
+    "qzTitle": "Climate Change",
+    "targets": [
+        true,
+        true,
+        false
+    ],
+    "questions": [
+        {
+            "qType":"text",
+            "qText":"What is the outermost layer of the Earth called?",
+            "qChoices": [
+                "The mantle",
+                "The crust",
+                "The upper crust",
+                "The upper mantle"
+            ],
+            "qAnswer": "The crust",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"text",
+            "qText":"What is the lithosphere?",
+            "qChoices": [
+                "The air around the Earth",
+                "Dust and particles from space in our atmosphere",
+                "The innermost layer of the Earth",
+                "The solid rock and soil beneath our feet"
+            ],
+            "qAnswer": "The solid rock and soil beneath our feet",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"text",
+            "qText":"The lithosphere is broken up into large sections called...",
+            "qChoices": [
+                "Plates",
+                "Continents",
+                "Landmasses",
+                "Continental shelves"
+            ],
+            "qAnswer": "Plates",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"text",
+            "qText":"Which of the following best describes the difference between continental and oceanic crut?",
+            "qChoices": [
+                "They are pretty much the same, but oceanic crust has water on top of it",
+                "Oceanic crust is made of granite and is denser than continental crust which is made of basalt",
+                "Oceanic crust is made of basalt and is denser than continental crust which is made of granite",
+                "Oceanic crust is made of granite and is less dense than continental crust which is made of basalt"
+            ],
+            "qAnswer": "Oceanic crust is made of basalt and is denser than continental crust which is made of granite",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"text",
+            "qText":"Earthquakes can be caused by...",
+            "qChoices": [
+                "Plates rubbing together at a plate boundary",
+                "Magma moving beneath a volcano",
+                "Steam being forced into cracks in rocks",
+                "All of the above"
+            ],
+            "qAnswer": "All of the above",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"text",
+            "qText":"Which of the following are secondary effects of an earthquake?",
+            "qChoices": [
+                "Collapsed buildings and burst water mains",
+                "Fire and the spread of disease",
+                "Both of the above",
+                "Neither of the above"
+            ],
+            "qAnswer": "Fire and the spread of disease",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"text",
+            "qText":"The location on the surface directly above an earthquake is called...",
+            "qChoices": [
+                "The focus",
+                "The epicentre",
+                "The seismo-centre",
+                "The fault zone"
+            ],
+            "qAnswer": "The epicentre",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType":"picture",
+            "qText":"What type of plate boundary does the diagram show?",
+            "qChoices": [
+                "Conservative",
+                "Constructive",
+                "Destructive",
+                "Collision"
+            ],
+            "qAnswer": "Destructive",
+            "qHint": "xxxxx",
+            "qpicSrc": "img/subduction.jpg",
+            "qpicAlt": "Diagram of a subduction zone"
+        },
+        {
+            "qType": "text",
+            "qText": "Conservative plate boundaries commonly experience major...",
+            "qChoices": [
+                "Volcanoes",
+                "Earthquakes",
+                "Cyclones",
+                "Continental drift"
+            ],
+            "qAnswer": "Earthquakes",
+            "qHint": "xxxxx"
+        },
+        {
+            "qType": "text",
+            "qText": "Tsunamis can be caused by",
+            "qChoices": [
+                "Meteorites",
+                "Volcanic eruptions",
+                "Earthquakes",
+                "All of the above"
+            ],
+            "qAnswer": "All of the above",
+            "qHint": "xxxxx"
+        }
+    ]
+
+}

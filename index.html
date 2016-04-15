@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Geography Quiz</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="stickyFooterWrap" >   
+    <header id="header">
+        <div class="headerWrapper">
+            <span>Geography Quiz</span>
+            <div id="headerRight">
+                <img src="img/globeIcon.png" alt="" />
+            </div> <!-- end  #headerRight --> 
+        </div> <!-- end  #headerWrapper --> 
+    </header>
+    <div id="pageWrapper">
+        
+        <div id="startScreen">
+            <h2>Welcome to the geography revision quiz page</h2>
+            <p class="pageInstruction">Please select a unit to choose a quiz topic from</p>
+            <div id="unitOptions">
+                <button class="unitButton" id="unit1" onclick="setUnit(1)"><span class="unitBtnText">Unit 1 - Living with the Physical Environment</span></button>
+                <button class="unitButton" id="unit2" onclick="setUnit(2)"><span class="unitBtnText">Unit 2 - Challenges in the Urban Environment</span></button>
+                <button class="unitButton" id="unit3" onclick="setUnit(3)"><span class="unitBtnText">Unit 3 - Geographical Applications</span></button>
+                <button class="unitButton" id="unit4" onclick="setUnit(4)"><span class="unitBtnText">Unit 4 - Geographical Skills</span></button>
+            </div>  <!-- end  #unitOptions -->
+        </div>  <!-- end  #startScreen --> 
+        
+        <div id="chooseQuiz">
+            
+            <h2 id="chooseQuizUnitTitle"></h2>
+            <p class="pageInstruction">Please select a topic from the following options</p>
+            
+            <div id="chooseQuizColumns">
+                <div class="topicColumn" id="topicCol1">
+                    <span id="colTitle1" class="colTitleSpan"></span>
+                </div>
+                <div class="topicColumn" id="topicCol2">
+                    <span id="colTitle2" class="colTitleSpan"></span>
+                </div>
+                <div class="topicColumn" id="topicCol3">
+                    <span id="colTitle3" class="colTitleSpan"></span>
+                </div>
+            </div>  <!-- end  #chooseQuizColumns -->
+        </div>  <!-- end  #chooseQuiz --> 
+   
+        <div id="quiz">
+            
+            <p id="progress" class="pageInstruction">Question x of y</p>
+            <h2 id="question" class="headline-secondary--grouped">Question goes here?</h2>
+            <ul id="ansList">
+                <li class="ansPanel">
+                    <div class="ansText" id="ansText0"><p id="choice0">Answer 0 would go in here</p></div>
+                    <button id="guess0" class="ansBtn" onclick="checkGuess(0)">Select Answer</button>
+                </li>
+                <li class="ansPanel">
+                    <div class="ansText" id="ansText1"><p id="choice1">Answer 1 would go in here</p></div>
+                    <button id="guess1" class="ansBtn" onclick="checkGuess(1)">Select Answer</button>
+                </li>
+                <li class="ansPanel">
+                    <div class="ansText" id="ansText2"><p id="choice2">Answer 2 would go in here</p></div>
+                    <button id="guess2" class="ansBtn" onclick="checkGuess(2)">Select Answer</button>
+                </li>
+                <li class="ansPanel">
+                    <div class="ansText" id="ansText3"><p id="choice3">Answer 3 would go in here</p></div>
+                    <button id="guess3" class="ansBtn" onclick="checkGuess(3)">Select Answer</button>
+                </li>
+            </ul>
+        </div><!-- end  #quiz -->
+        
+ <!--       <div id="quizPic">
+            
+            <div id="qPicTopHolder">
+                <div id="quizPicQuestion">
+                    <p id="picProgress" class="pageInstruction">Question x of y</p>
+                    <h2 id="picQuestion" class="headline-secondary--grouped">Question goes here?</h2>
+                </div> <!-- end  #quizPicQuestion --> 
+   <!--             <div id="quizPicImage">
+                    <img src="" alt="" />
+                </div> <!-- end  #quizPicImage --> 
+ <!--           </div> <!-- end  #qPicTopHolder --> 
+            
+ <!--           <ul id="picAnsList">
+                <li class="picAnsPanel">
+                    <div class="picAnsText"><p id="picChoice0">Answer 0 would go in here</p></div>
+                    <button id="picGuess0" class="picAnsBtn">Select Answer</button>
+                </li>
+                <li class="picAnsPanel">
+                    <div class="picAnsText"><p id="picChoice1">Answer 1 would go in here</p></div>
+                    <button id="picGuess1" class="picAnsBtn">Select Answer</button>
+                </li>
+                <li class="picAnsPanel">
+                    <div class="picAnsText"><p id="picChoice2">Answer 2 would go in here</p></div>
+                    <button id="picGuess2" class="picAnsBtn">Select Answer</button>
+                </li>
+                <li class="picAnsPanel">
+                    <div class="picAnsText"><p id="picChoice3">Answer 3 would go in here</p></div>
+                    <button id="picGuess3" class="picAnsBtn">Select Answer</button>
+                </li>
+            </ul>
+        </div><!-- end  #quizPic -->
+        
+    </div> <!-- end  .pageWrapper -->
+</div> <!-- end  #noFooterWrap -->    
+<footer class="footer">
+    <p id="progress">2016 @ CornishTerrier Designs</p>
+</footer>
+<div id="overlay"><button id="nextQuestBtn" onclick="nextQuestionplease()">Next Question</button></div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/question.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
